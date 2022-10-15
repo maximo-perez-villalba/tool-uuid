@@ -1,0 +1,5 @@
+/composer.lock
+/nbproject/
+/vendor/
+/tests/resources/cache/*
+/tests/scrapbook.php

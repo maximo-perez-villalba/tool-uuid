@@ -1,0 +1,38 @@
+{
+    "name" : "maximo-perez-villalba/tool-uuid",
+    "description" : "UUID (Universally Unique IDentifier). Herramienta para generar y validar claves irrepetibles de 8 caracteres.",
+    "type" : "library",
+    "version" : "1.0.0",
+    "license" : "Apache License 2.0",
+    "authors" : 
+    [
+        {
+            "name": "Máximo Perez Villalba",
+            "email": "maximo.villalba@gmail.com"
+        }
+    ],
+    "autoload": 
+    {
+        "psr-4": 
+        {
+            "MPV\\Tools\\": "src/MPV/Tools/"
+        }
+    },
+    "autoload-dev": 
+    {
+        "psr-4": 
+        {
+            "Test\\MPV\\Tools\\": "tests/Test/MPV/Tools/"
+        }
+    },
+    "require": 
+    {
+        "php": ">=7.1"
+    },
+    "require-dev": 
+    {
+        "phpunit/phpunit": "^9.4"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
